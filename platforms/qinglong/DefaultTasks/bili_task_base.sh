@@ -11,7 +11,7 @@ set -u
 set -o pipefail
 
 verbose=false                          # 开启debug日志
-bili_repo=${BILI_REPO:-"raywangqvq/bilibilitoolpro"} # 仓库地址
+bili_repo=${BILI_REPO:-"chengoak/BiliBiliToolPro"} # 仓库地址
 bili_branch=${BILI_BRANCH:-""}         # 分支名，空或_develop
 prefer_mode=${BILI_MODE:-"dotnet"}     # dotnet或bilitool，需要通过环境变量配置
 github_proxy=${BILI_GITHUB_PROXY:-""}  # 下载github release包时使用的代理，会拼在地址前面，需要通过环境变量配置

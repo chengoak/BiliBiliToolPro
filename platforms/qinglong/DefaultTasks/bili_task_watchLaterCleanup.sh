@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# cron:30 3 * * *
+# cron:40 21 * * *
 # new Env("bili稍后再看清理")
 
 . bili_task_base.sh
